@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Package Plans">
+    <test verbose="2" preserve-order="true" name="Package Plans">
+        <classes>
+            <class name="testCases.ArabicPackagePlans_Tests">
+                <methods><include name="validate_Arabic_SaudiArabia_lite_Package_Price"/>
+                    <include name="validate_Arabic_SaudiArabia_Classic_Package_Price"/>
+                    <include name="validate_Arabic_SaudiArabia_Primum_Package_Price"/>
+                    <include name="validate_Arabic_SaudiArabia_Currancy"/>
+                    <include name="validate_Arabic_Kuwait_lite_Package_Price"/>
+                    <include name="validate_Arabic_Kuwait_Classic_Package_Price"/>
+                    <include name="validate_Arabic_Kuwait_Primum_Package_Price"/>
+                    <include name="validate_Arabic_Kuwait_Currancy"/>
+                    <include name="validate_Arabic_Bahrain_lite_Package_Price"/>
+                    <include name="validate_Arabic_Bahrain_Classic_Package_Price"/>
+                    <include name="validate_Arabic_Bahrain_Primum_Package_Price"/>
+                    <include name="validate_Arabic_Bahrain_Currancy"/>
+                </methods>
+            </class>
+            <class name="testCases.EnglishPackagePlans_Tests">
+                <methods>
+                    <include name="validate_English_SaudiArabia_lite_Package_Price"/>
+                    <include name="validate_English_SaudiArabia_Classic_Package_Price"/>
+                    <include name="validate_English_SaudiArabia_Primum_Package_Price"/>
+                    <include name="validate_English_SaudiArabia_Currancy"/>
+                    <include name="validate_English_Kuwait_lite_Package_Price"/>
+                    <include name="validate_English_Kuwait_Classic_Package_Price"/>
+                    <include name="validate_English_Kuwait_Primum_Package_Price"/>
+                    <include name="validate_English_Kuwait_Currancy"/>
+                    <include name="validate_English_Bahrain_lite_Package_Price"/>
+                    <include name="validate_English_Bahrain_Classic_Package_Price"/>
+                    <include name="validate_English_Bahrain_Primum_Package_Price"/>
+                    <include name="validate_English_Bahrain_Currancy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
